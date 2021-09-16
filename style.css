@@ -1,0 +1,105 @@
+
+body {
+  margin: 0;
+  background: white;
+  color:rgb(41, 38, 38);
+  font-size: 1.1em;
+  line-height: 1.5;
+  text-align: center;
+}
+
+
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+h1{
+  margin: 0;
+  padding:  1em 0;
+  color: rgb(14, 14, 92);
+  font-weight: 900;
+  text-transform:uppercase;
+  font-size: 28px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1 span{
+  color: red;
+  background: black;
+  border-radius: 10px;
+}
+
+.container{
+
+  width: 410px;
+  height: 420px;
+  margin:2rem auto;
+  
+  display:flex;
+  flex-wrap: wrap;
+  
+  background-color:grey;
+  border-top: 10px solid grey;
+  border-left: 10px solid grey;
+  border-bottom: 10px solid white;
+  border-right: 10px solid white;
+  box-shadow: 0px 0px 0px 10px lightgrey;
+  font-family: 'Teko', sans-serif;
+}
+
+button{
+  width: 50px;
+  height: 50px;
+  box-sizing: border-box;
+  border: 1.5px solid black;
+  background-color: lightgrey;
+  box-shadow: inset 2px 2px 0px white, inset -2px -2px 0px darkslategrey;
+  display:grid;
+  position: relative;
+  align-content: center;
+  justify-content: center;
+  font-size:1.5em;
+}
+
+.hidden{
+  background: rgb(179, 172, 172);
+  cursor: pointer;
+}
+
+.hidden:hover{
+  width: 48px;
+  height: 48px;
+  border: 1px solid black;
+  background-color: lightgray;
+  transition: all;
+  box-shadow: inset 2px 2px 0px white, inset -2px -2px 0px darkslategrey;
+
+}
+
+
+.hidden:active{
+
+  box-shadow: inset 2px 2px 0px darkslategrey, inset -2px -2px 0px white;
+  background: black;
+}
+
+
+.mine, .one, .two, .three {
+  border: 1.5px dashed black;
+  box-shadow: none;
+}
+
+.mine{
+  background: rgb(61, 57, 57);
+}
+
+.one {
+  color:blue;
+}
+.two {
+  color:green;
+}
+.three {
+  color:red;
+}
