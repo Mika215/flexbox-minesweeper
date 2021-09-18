@@ -4,3 +4,9 @@
 
  let audio = document.getElementById("player");
  audio.volume = 0.02;
+
+ // Besides i am adding the below function to make sure that the background audio keeps playing everytime the page is reloaded 
+
+ window.onload=function(){
+    audio.play();
+  }
